@@ -1,0 +1,14 @@
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: first-tenant
+  labels:
+    name: first-tenant
+
+---
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: second-tenant
+  labels:
+    name: second-tenant
