@@ -4,6 +4,7 @@
 # .tfstate files
 *.tfstate
 *.tfstate.*
+.terraform.lock.hcl
 
 # .tfvars files
 *.tfvars
@@ -17,3 +18,4 @@ override.tf.json
 # CLI configuration files
 .terraformrc
 terraform.rc
+.idea
